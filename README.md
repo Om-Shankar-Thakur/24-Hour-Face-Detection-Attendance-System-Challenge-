@@ -1,80 +1,60 @@
-# 24-Hour Face Detection Attendance System
+# Face Recognition Attendance System
 
-Automated attendance tracking using facial recognition technology.
+![Project Image](https://blog.mantratec.com/Images/post-img/all_post_in_side_img/2022/Benefits-of-facial-recognition-attendance-system.png)
 
-![Project Image](project_image.png)
+> A smart attendance tracking system using face recognition technology.
+
+---
 
 ## Table of Contents
 
-- [About](#about)
+- [Description](#description)
 - [Features](#features)
+- [Demo](#demo)
 - [Getting Started](#getting-started)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
-- [Acknowledgments](#acknowledgments)
+- [Contact](#contact)
 
-## About
+---
 
-The 24-Hour Face Detection Attendance System is a project that automates the process of attendance tracking using facial recognition. It addresses the challenges of setting up databases for face and name data, tracking attendance efficiently, and dynamically expanding the system to recognize new faces.
+## Description
+
+The Face Recognition Attendance System is a powerful and efficient solution for automating attendance tracking using facial recognition technology. This system can identify individuals, record their attendance, and store the data securely in a database. It offers a user-friendly interface and can be used in various settings, such as schools, workplaces, and events, to streamline attendance management.
+
+---
 
 ## Features
 
-- Webcam-based face detection
-- Database management for storing face and name data
-- Efficient attendance tracking with the latest entry for repeat faces
-- Hands-free innovation for adding new faces to the system
+- Face detection and recognition using webcam or external camera.
+- Database integration for storing face data and attendance records.
+- Automatic attendance recording with date and time stamps.
+- Hands-free addition of new faces to the recognition database.
+- User-friendly interface for easy operation.
+
+---
+
+## Demo
+
+![Demo Gif](demo.gif)
+
+Check out our demo video [here](demo_video.mp4) to see the Face Recognition Attendance System in action.
+
+---
 
 ## Getting Started
 
 ### Prerequisites
 
-Before you begin, ensure you have met the following requirements:
+Before running the project, make sure you have the following installed:
 
-- Python (>=3.6)
-- OpenCV
-- TensorFlow
-- Pandas
-- Kivy (for GUI)
-- Siamese Networks
-- YOLO (You Only Look Once)
-- Additional libraries as specified in the project documentation
+- Python 3.x
+- Required Python packages (listed in `requirements.txt`)
 
 ### Installation
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/24-hour-attendance-system.git
-
-Install the required dependencies:
-
-bash
-Copy code
-pip install -r requirements.txt
-Usage
-Launch the application:
-
-bash
-Copy code
-python main.py
-
-[11:30 AM, 9/10/2023] Amber Amity: Follow the on-screen instructions to set up and use the system.
-
-Contributing
-Contributions are what make the open-source community an excellent place to learn, inspire, and create. Any contributions you make are much appreciated.
-
-Fork the project.
-Create your feature branch (git checkout -b feature/AmazingFeature).
-Commit your changes (git commit -m 'Add some AmazingFeature').
-Push to the branch (git push origin feature/AmazingFeature).
-Open a pull request.
-License
-Distributed under the MIT License. See LICENSE for more information.
-
-Acknowledgments                                                                                                                                                                                                  Author Name - Project inspiration and initial work.
-Special thanks to any external libraries, frameworks, or tutorials used in this project.
-Replace the placeholders (your-username, Author Name, etc.) with the actual information relevant to your project. You can also include badges, screenshots, or additional sections as needed to make your README more informative and appealing
-[11:30 AM, 9/10/2023] Amber Amity: Remember to replace the `project_image.png` placeholder with the actual image URL or relative path to your project's image.
+   git clone https://github.com/your-username/face-recognition-attendance.git
